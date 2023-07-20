@@ -5,3 +5,8 @@ import sys
 
 resp = requests.get(sys.argv[1])
 print(resp.text)
+
+
+import os
+
+print(os.getenv("MYVAR"))
